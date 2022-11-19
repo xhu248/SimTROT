@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="crcfe01.crc.nd.edu" id="495a9bc7-8f99-4d62-b4e7-13b918a2ac73" port="22" customName="crc01" nameFormat="CUSTOM" username="xhu7" useOpenSSHConfig="true">
+        <option name="customName" value="crc01" />
+      </sshConfig>
+      <sshConfig host="ec2-52-55-245-5.compute-1.amazonaws.com" id="a7eaca3a-8110-4e66-b196-59caa35f5802" keyPath="$USER_HOME$/Downloads/demo.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

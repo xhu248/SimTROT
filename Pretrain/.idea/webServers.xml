@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6eae0fa0-57c0-4cfa-8b39-460d7b2be911" name="crc01" url="http://crcfe01.crc.nd.edu">
+        <fileTransfer accessType="SFTP" host="crcfe01.crc.nd.edu" port="22" sshConfigId="495a9bc7-8f99-4d62-b4e7-13b918a2ac73" sshConfig="crc01">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="557772a2-b884-4a63-9a0f-35aa5e5dbf65" name="aws">
+        <fileTransfer accessType="SFTP" host="ec2-52-55-245-5.compute-1.amazonaws.com" port="22" sshConfigId="a7eaca3a-8110-4e66-b196-59caa35f5802" sshConfig="ec2-user@ec2-52-55-245-5.compute-1.amazonaws.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
